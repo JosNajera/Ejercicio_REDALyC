@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F44336;
+  border-bottom: groove;
+  border-color: #F44336;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+
+.flex-container {
+  flex-direction: column;
+  display: flex;
+}
+
+.flex-container>div {
+  width: 100%;
+  text-align: center;
+}
+
+#contenedor1 {
+  background-color: #F44336;
+  height: 260px;
+  text-align: center;
+  padding: 128px 0px;
+
+}
+
+#contenedor2 {
+  background-color: white;
+  height: 384px;
+  padding: 64px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#contenedor3 {
+  background-color: lightgrey;
+  height: 384px;
+  padding: 64px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+#contenedor4 {
+  background-color: rgba(53, 51, 51, 0.801);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 64px 0px;
+}
+
+#contenedor5 {
+  background-color: white;
+  height: 280px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  color: white;
+}
+
+#parrafoenc {
+  color: white;
+  font-size: small;
+  margin: 16px;
+  font-size: 20px;
+  padding-bottom: 24px;
+}
+
+#botonStart {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+}
+
+#parrafo1 {
+  text-align: left;
+  width: 653px;
+  height: 384px;
+  margin: 0;
+}
+
+#icono1 {
+  height: 326px;
+  width: 328px;
+  align-items: center;
+}
+
+#taza {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#parrafo2 {
+  text-align: left;
+  width: 653px;
+  height: 384px;
+  margin: 0;
+}
+
+#icono2 {
+  height: 326px;
+  width: 328px;
+  align-items: center;
+}
+
+#ancla {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+#finaltexto {
+  font-size: 24px;
+  height: 36px;
+  margin: 16px;
+}
+
+#w3 {
+  color: #757575;
+}
+
+#iconosfinales {
+  padding: 32px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+  color: #757575;
+}
