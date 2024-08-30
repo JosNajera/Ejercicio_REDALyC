@@ -6,19 +6,19 @@
     <title> Ejercicio de Prueba</title>
     <link rel="stylesheet" href="colorHead.css">
     <script src="https://kit.fontawesome.com/ada6103463.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <header>
-    <div id="Navegador">
-        <nav>
-            <ul>
-                <li><a class="active" href="Home">Home</a></li>
-                <li><a href="#">Link1</a></li>
-                <li><a href="#">Link2</a></li>
-                <li><a href="#">Link3</a></li>
-                <li><a href="#">Link4</a></li>
-            </ul>
-        </nav>
+    <div class="topnav" id="Navegador">
+        <a class="active" href="#">Home</a></li>
+        <a href="#">Link1</a></li>
+        <a href="#">Link2</a></li>
+        <a href="#">Link3</a></li>
+        <a href="#">Link4</a></li>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a></li>
     </div>
 </header>
 
@@ -52,10 +52,10 @@
                 </p>
             </div>
             <div id="icono2">
-                <i id="ancla" class="fa-solid fa-anchor" style="font-size: 180px; color: red;"></i>
+                <i id="ancla" class="fa-solid fa-anchor"></i>
             </div>
         </div>
-        <div id="contenedor3">
+        <div id="contenedor3" class="flex">
             <div id="parrafo2">
                 <h2>Lorem Ipsum</h2>
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
@@ -76,13 +76,13 @@
                 </p>
             </div>
             <div id="icono1">
-                <i id="taza" class="fa-solid fa-mug-saucer" style="font-size: 165px; color: red;"></i>
+                <i id="taza" class="fa-solid fa-mug-saucer"></i>
             </div>
         </div>
-        <div id="contenedor4">
+        <div id="contenedor4" class="flex">
             <h1 id="finaltexto">Quote of the day: live life</h1>
         </div>
-        <div id="contenedor5">
+        <div id="contenedor5" class="flex">
             <div id="iconosfinales">
                 <p><i class="fa-brands fa-facebook" style="font-size: 24px; color:dimgray"></i> <i
                         class="fa-brands fa-instagram" style="font-size: 24px; color:dimgray"></i> <i
@@ -98,5 +98,7 @@
         </div>
     </div>
 </body>
+
+<script src="MisScripts.js"></script> 
 
 </html>
