@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-MEX">
+
+<head>
+    <meta charset="utf-8">
+    <title> Calculadora de edad</title>
+    <link rel="stylesheet" href="diseño.css">
+</head>
+
+<body>
+    <div class="calculadora-container">
+        <div id="cuerpo">
+            <div id="encabezado-cuerpo">
+                <div>
+                    <label for="fdia">Día</label><br>
+                    <input type="text" id="idia" oninput="validacion()">
+                </div>
+                <div>
+                    <label for="fmes">Mes</label><br>
+                    <input type="text" id="imes" oninput="validacion()">
+                </div>
+                <div>
+                    <label for="faño">Año</label><br>
+                    <input type="text" id="iaño" oninput="validacion()">
+                </div>
+            </div>
+            <div id="resultados-cuerpo"></div>
+            <p id="salidaDia"></p>
+            <p id="salidaMes"></p>
+            <p id="salidaAño"></p>
+
+        </div>
+    </div>
+</body>
+<script src="operaciones.js"></script>
+
+</html>
